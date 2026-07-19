@@ -30,7 +30,7 @@ Constraints:
 //Code:Opitmal Approach
 
 import java.util.Arrays;
-class dub{
+class Solution{
     public boolean ContainDublicate(int[] nums){
         Arrays.sort(nums);
 
@@ -42,10 +42,10 @@ class dub{
         return false;
     }
     public static void main(String[] args){
-        dub d=new dub();
+        Solution s=new Solution();
         int[] nums={1,2,3,5,6,7};
 
-        boolean ans=d.ContainDublicate(nums);
+        boolean ans=s.ContainDublicate(nums);
         System.out.println(ans);
     }
 }
