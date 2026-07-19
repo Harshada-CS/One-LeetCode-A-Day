@@ -27,7 +27,7 @@ Constraints:
 
 */
 
-//Code:Opitmal Approach
+//Code:Better Approach
 
 import java.util.Arrays;
 class Solution{
@@ -75,6 +75,66 @@ Time Complexity:
 
 Space Complexity:
 0(1)
-
-THANKS
 */
+
+//Code: Optimal Arroach
+
+import java.util.HashSet;
+
+class Solution {
+    public boolean containsDuplicate(int[] nums) {
+
+        HashSet<Integer> set = new HashSet<>();
+
+        for (int num : nums) {
+
+            if (set.contains(num)) {
+                return true;
+            }
+            set.add(num);
+        }
+        return false;
+    }
+}
+
+/*
+Explanation:
+The containsDuplicate() method checks whether an array
+contains any duplicate element using a HashSet.
+
+A HashSet stores only unique elements.
+
+If we try to add an element that already exists,
+we know a duplicate has been found.
+
+HashSet<Integer> set = new HashSet<>();
+  - Create an empty HashSet.
+  - The HashSet stores every unique number encountered.
+  
+for (int num : nums)
+ - Traverse each element of the array one by one.
+
+if (set.contains(num))
+  - Check whether the current element already exists
+    in the HashSet.
+  - If it exists,
+   return true immediately because a duplicate
+   has been found.
+   
+ set.add(num);
+  - If the current element is not present,
+   insert it into the HashSet.
+
+ return false;
+  - If the entire array is traversed and no duplicate
+    is found, return false.
+
+Time Complexity:
+0(n)
+
+Space Complexity:
+0(n)
+*/
+
+//THANKS
+
