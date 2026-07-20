@@ -41,7 +41,7 @@ Constraints:
 
 import java.util.HashMap;
 
- class dub2 {
+ class Solution {
     public boolean ContainDublicate2(int[] nums,int k){
     HashMap<Integer,Integer> map=new HashMap<>();
 
@@ -58,11 +58,11 @@ import java.util.HashMap;
         return false;
     }
     public static void main(String[] args){
-        dub2 d=new dub2();
+        Solution s=new Solution();
         int[] nums={1,2,3,1};
         int k=3;
 
-        boolean ans=d.ContainDublicate2(nums, k);
+        boolean ans=s.ContainDublicate2(nums, k);
         System.out.println(ans);
     }
     
