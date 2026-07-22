@@ -42,8 +42,8 @@
 
 import java.util.HashMap;
 
-class move{
-    public int MejorityElement(int[] nums){
+class Solution{
+    public int MajorityElement(int[] nums){
         HashMap<Integer,Integer> map=new HashMap<>();
 
         for(int num:nums){
@@ -57,10 +57,10 @@ class move{
         return -1;
     }
     public static void main(String[] args){
-        move m=new move();
+        Solution s=new Solution();
         int[] nums={2,2,1,1,2,2};
 
-        int ans=m.MejorityElement(nums);
+        int ans=s.MajorityElement(nums);
         System.out.println(ans);
     }
 }
