@@ -1,5 +1,5 @@
 /*
- * 283. Move Zeroes
+ * 283. Move Zeros
 
  * Array
  * Level: Easy
@@ -32,8 +32,8 @@
  */
 
 //code: Brute froce approach
-/*import java.util.Arrays;
-class Move2{
+import java.util.Arrays;
+class Solution{
     public int[] MoveZeros(int[] nums){
 
         int[] temp=new int[nums.length];
@@ -51,10 +51,10 @@ class Move2{
         return nums;
     }
     public static void main(String[] args){
-        Move2 m=new Move2();
+        Solution s=new Solution();
         int[] nums={0,1,0,3,12};
 
-        int[] ans=m.MoveZeros(nums);
+        int[] ans=s.MoveZeros(nums);
         System.out.println(Arrays.toString(ans));
     }
 }
@@ -97,7 +97,7 @@ class Move2{
  * Memory: 43 MB | Beats: 38.44%(May vary)
  */
 import java.util.Arrays;
-class Move2{
+class Solution{
     public int[] MoveZeros(int[] nums){
 
         int j=0;
@@ -113,10 +113,10 @@ class Move2{
         return nums;
     }
     public static void main(String[] args){
-        Move2 m=new Move2();
+        Solution s=new Solution();
         int[] nums={0,1,0,3,12};
 
-        int[] ans=m.MoveZeros(nums);
+        int[] ans=s.MoveZeros(nums);
         System.out.println(Arrays.toString(ans));
     }
 }
