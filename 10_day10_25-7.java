@@ -39,7 +39,7 @@
  */
 //Code:Better Approach
 
-class sum{
+class Solution{
     public int FindPivotIndex(int[] nums){
         int totalSum=0;
 
@@ -63,7 +63,7 @@ class sum{
     }
 
     public static void main(String[] args){
-        sum s=new sum();
+        Solution s=new Solution();
         int[] nums={1,7,3,6,5,6};
 
         int ans=s.FindPivotIndex(nums);
