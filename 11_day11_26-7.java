@@ -1,6 +1,5 @@
 /*
  * 66.Plus One
-
  * Array
  * Level: Easy
  * Runtime: 0 ms | Beats: 100% (May vary)
@@ -44,7 +43,7 @@
  */
 
 import java.util.Arrays;
-class PlusOne{
+class Solution{
     public int[] PlusOne(int[] digits){
 
         for(int i=digits.length-1;i>=0;i--){
@@ -61,13 +60,14 @@ class PlusOne{
         return result;
     }
     public static void main(String[] args){
-        PlusOne p=new PlusOne();
+        Solution s=new Solution();
         int[] digits={1,2,3};
 
-        int[] ans=p.PlusOne(digits);
+        int[] ans=s.Solution(digits);
         System.out.println(Arrays.toString(ans));
     }
 }
+
 // EXPLANATION
 
 /*
