@@ -1,5 +1,5 @@
 /*
- * Rotate Array
+ *189. Rotate Array
  * Array
  * Level: Medium
  * Runtime: 0 ms | Beats: 100% (May vary)
@@ -58,7 +58,7 @@ class Rotate{
     public static void main(String[] args){
         Rotate r=new Rotate();
         int[] nums={1,2,3,4,5,6};
-        int k=1;
+        int k=2;
 
         int[] ans = r.RoatateArray(nums, k);
         System.out.println(Arrays.toString(ans));
