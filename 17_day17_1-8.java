@@ -84,9 +84,8 @@
  * Space Complexity:
  * 0(1)
  * 
- * /
-//Code:Better Approach:
-
+ */
+//Code:Better Approach
 class Solution {
     public void sortColors(int[] nums) {
         int low=0;
@@ -112,13 +111,7 @@ class Solution {
         nums[j]=temp;
     }
 }
-//Expanation:
+//Time Complexity = O(n)
+//Space Complexity = O(1)
 
- * Time Complexity = O(n)
- * Space Complexity = O(1)
- *
- * Optimal Approach:
- * Dutch National Flag Algorithm
- * Time Complexity = O(n)
- * Space Complexity = O(1)
- */
+
