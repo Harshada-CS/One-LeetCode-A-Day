@@ -94,11 +94,8 @@ class PeakEle{
  * - A peak must exist on the right side.
  * left = mid + 1;
  *
- *
  * When the loop ends:
- *
  * left == right
- *
  * This index represents a peak element.
  *
  * Return left.
@@ -108,4 +105,11 @@ class PeakEle{
  * 
  * Space Complexity:
  * 0(1)
+ *
+ *Code: Brute Force Arroach:
+ *Time Complexity:
+ *0(n)
+ *
+ *Space Complexity:
+ *0(1)
  * */
