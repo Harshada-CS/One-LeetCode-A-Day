@@ -40,7 +40,6 @@
  * 1 <= k <= 2^31 - 1
  */
 
- 
  import java.util.HashMap;
  class Solutions {
     public boolean cotinuousSubArraySum(int[] nums,int k){
@@ -88,7 +87,6 @@
  * - Store remainder 0 at index -1.
  *
  * Why?
- *
  * If the prefix sum itself becomes divisible by k, then the subarray starts from index 0.
  *
  * int sum = 0;
