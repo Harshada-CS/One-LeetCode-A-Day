@@ -1,5 +1,5 @@
 /*
- * 224.Valid Anagram
+ * 242.Valid Anagram
  * String, Sorting
  * Level: Easy
  * Approach: Sorting
